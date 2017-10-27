@@ -1,5 +1,5 @@
 FROM debian
-MAINTAINER Talita Bernardes - Concrete
+MAINTAINER Talita Bernardes Pereira - Concrete
 
 RUN apt-get update && apt-get install -y apache2
 COPY index.html /var/www/html
